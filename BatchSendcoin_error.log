@@ -1,0 +1,124 @@
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:58:57"}
+error: txHash update pending error: 0xf4eb1e30546af646be51ecc5108b21abc9b851598e246dd6d2aa10f2a3c8ece7 {"timestamp":"2018-07-06 02:58:57"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:58:59"}
+error: txHash update pending error: 0xd992058d4ab931c55f6bb0e2739712adfa0632dfac90b3b465414087796eb1b2 {"timestamp":"2018-07-06 02:58:59"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:01"}
+error: txHash update pending error: 0xaaf8a892bb14f08ff7e9cf8d3416eeb0f59a16b503855c557f9c8be8ccc734f6 {"timestamp":"2018-07-06 02:59:01"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:06"}
+error: txHash update pending error: 0x7f069dffb8b3658eb3f03dd12317a17a8d117c91526d69cc2cd2ea7508da95cb {"timestamp":"2018-07-06 02:59:06"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:08"}
+error: txHash update pending error: 0x952fd222ffccadbf3bff6c427988a4a06e6fed9ebfd3253049aec121c8d6a22f {"timestamp":"2018-07-06 02:59:08"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:11"}
+error: txHash update pending error: 0xd70a95c0cabe9fa0806e612e44f97d87460378382e528c0824ab22e8b8af0d61 {"timestamp":"2018-07-06 02:59:11"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:22"}
+error: txHash update pending error: 0x104d5914dee70be1fba23ab7d74eef9c7c142bbd07fe8ccc746f873b7b430534 {"timestamp":"2018-07-06 02:59:22"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:24"}
+error: txHash update pending error: 0x3b4ab0c478d7b30aa2f8f7ae3dccf31953f52b2b805ab83d276fef412a4a9ac2 {"timestamp":"2018-07-06 02:59:24"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:32"}
+error: txHash update pending error: 0xf8e8b7122f17731756162fe3e63e007a121ebcd08b7df5a9dce835e7b41bea08 {"timestamp":"2018-07-06 02:59:32"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:38"}
+error: txHash update pending error: 0x11ee35a6202dea58597a62c2ac856f544a36fd8577071dce21ef34a4b1961f9c {"timestamp":"2018-07-06 02:59:38"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:40"}
+error: txHash update pending error: 0x998ba2efa89a072f2067b4f00c25b4e4eeae2ec9bc1440d54032b4bed06629ba {"timestamp":"2018-07-06 02:59:40"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:46"}
+error: txHash update pending error: 0xe3ad34f876154123fd8a88c9585712a3661f3f1b4f695f5b87e83ff10099ad7e {"timestamp":"2018-07-06 02:59:46"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:48"}
+error: txHash update pending error: 0x4c68d57ee69b9ed71253574f5c8fc52837fd5e7fb1246baf861576dca4427ae4 {"timestamp":"2018-07-06 02:59:48"}
+error: {"name":"error","length":90,"severity":"ERROR","code":"42601","position":"56","file":"scan.l","line":"1087","routine":"scanner_yyerror"} {"timestamp":"2018-07-06 02:59:50"}
+error: txHash update pending error: 0x9e9437df854941f130faf52b1a7e56f71d596691e0c7b131983dae5712c3679b {"timestamp":"2018-07-06 02:59:50"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:06:20"}
+error: txHash update pending error: 0x11bbdb7cc5636c0d2ee689ce6a72b4543a1cd5ddd0bd127eb0ebdff85dba778e {"timestamp":"2018-07-06 03:06:20"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:06:22"}
+error: txHash update pending error: 0x9cb2864b4f59930fe3434f07b80731d4b3ca5ec91a6211747a1ddeacf7c3da63 {"timestamp":"2018-07-06 03:06:22"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:06:24"}
+error: txHash update pending error: 0xb397a778877de00a7077c3e5ea29bcfa116ba64633e9538c2dd244330f51d1f3 {"timestamp":"2018-07-06 03:06:24"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:07:20"}
+error: txHash update pending error: 0xd3e9400cefe266b98d4d11738a24ac8250bd94e2ad76c8e921063d0bf912d999 {"timestamp":"2018-07-06 03:07:20"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:07:22"}
+error: txHash update pending error: 0xa02ad4fa83a9974e9d332ed79cc6384c2ac53841700a10c8f0faad68fed10142 {"timestamp":"2018-07-06 03:07:22"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:07:24"}
+error: txHash update pending error: 0xefcc8910a13f551b63c8729fdb99617e12cb45c114df450cf729af41e7b79f6e {"timestamp":"2018-07-06 03:07:24"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:11:48"}
+error: txHash update pending error: 0xe02ca755882becae5e9d81c5cee6ff8fd1df0a498bbff0fc3c384fdc4a7034fb {"timestamp":"2018-07-06 03:11:48"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:11:50"}
+error: txHash update pending error: 0x5a62640b16db0de46bfb29a41d8743ef15081225e14f94384504cd713a6f3e7f {"timestamp":"2018-07-06 03:11:50"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:11:52"}
+error: txHash update pending error: 0x819c00ba2d06fdb28deaa5ab6af4644c8658ba9de027a622f9761dd96eef13d9 {"timestamp":"2018-07-06 03:11:52"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:06"}
+error: txHash update pending error: 0xfc468889453ef870becb49a1bf18fd5b97ee752998c735c42f20a5d90c3a05ab {"timestamp":"2018-07-06 03:12:06"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:08"}
+error: txHash update pending error: 0xcfe2bed813308ce2abc39af89a298d86b6ee4da4f9967f30c8172d046f47e70c {"timestamp":"2018-07-06 03:12:08"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:10"}
+error: txHash update pending error: 0x8fb157d58603c679b9ac862f67d7539eeff14ebe92d5c4af59d417d08ed6ad08 {"timestamp":"2018-07-06 03:12:10"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:26"}
+error: txHash update pending error: 0xc25b6c1725815b2e410aa2b0e0c72b5cb4fc7729499bda856cd4138c35330910 {"timestamp":"2018-07-06 03:12:26"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:28"}
+error: txHash update pending error: 0x9921e420c55a50ba8e6a3c6f8022908771e67d019584b14c5be73a7906727fb7 {"timestamp":"2018-07-06 03:12:28"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:30"}
+error: txHash update pending error: 0xc2a3813e92b4e62d30799f8b0fe54b303ea015ceadf64b68084e7a1614cecb9c {"timestamp":"2018-07-06 03:12:30"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:54"}
+error: txHash update pending error: 0x6ce203119e26d675a992b6ca6d3b4dd538e7a03bf4a33b09f57a9112199c2bfd {"timestamp":"2018-07-06 03:12:54"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:56"}
+error: txHash update pending error: 0x801b602922030ebfd74c2a379270e658a027684e08d44e66987398b03c5f060e {"timestamp":"2018-07-06 03:12:56"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:12:58"}
+error: txHash update pending error: 0x51bc4d24280e99f673d872eb00404b2a0bb382a640340d710e26d8484c49db58 {"timestamp":"2018-07-06 03:12:58"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:26"}
+error: txHash update pending error: 0x187d948beec5a024cdf0938a678620b98e1177672cee3368b3c1aa7556deaed8 {"timestamp":"2018-07-06 03:13:26"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:28"}
+error: txHash update pending error: 0x5f3f2c1ccec3d22f623ec6f158c11d82e564725796778cf526b2d1eebc39c35d {"timestamp":"2018-07-06 03:13:28"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:32"}
+error: txHash update pending error: 0x876b2e11ed1bc75180814632caa3723ff1062d2de1e2651699fbe7566e79606b {"timestamp":"2018-07-06 03:13:32"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:36"}
+error: txHash update pending error: 0x99544f5998027f368c8cdf01ed8e3e4554d117e9b18ba4187b166d95c5a7c70e {"timestamp":"2018-07-06 03:13:36"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:38"}
+error: txHash update pending error: 0xc4b0a18db10a1a6e320e39a227c6c13d33c33df361f053e40d295112573ff674 {"timestamp":"2018-07-06 03:13:38"}
+error: error: syntax error at or near "0" {"timestamp":"2018-07-06 03:13:44"}
+error: txHash update pending error: 0x2c7c6cd557ad4df3191ef2c344c77795a536d181f00635717d4519c4c32a1154 {"timestamp":"2018-07-06 03:13:44"}
+error: transactionError: Error: Transaction ran out of gas. Please provide more gas:
+{
+  "blockHash": "0x20f4c0d8c306058124803f8661ad57ac27fd6fab07470bac30bed70c5376a9e3",
+  "blockNumber": 5996112,
+  "contractAddress": null,
+  "cumulativeGasUsed": 0,
+  "from": "0x8629a437c26afe034c35535b46d17dfb7ef6fd48",
+  "gasUsed": 0,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "to": "0xec3e765bf013e9b2f9e0956767a735b9e9f94219",
+  "transactionHash": "0x2c7c6cd557ad4df3191ef2c344c77795a536d181f00635717d4519c4c32a1154",
+  "transactionIndex": 0
+} {"timestamp":"2018-07-06 03:13:54"}
+error: transactionError: Error: Transaction ran out of gas. Please provide more gas:
+{
+  "blockHash": "0x50e80b964a0b96a3e6b8be70795410092a8f666c977c9daa83cc64dbf137be43",
+  "blockNumber": 5996131,
+  "contractAddress": null,
+  "cumulativeGasUsed": 0,
+  "from": "0x8629a437c26afe034c35535b46d17dfb7ef6fd48",
+  "gasUsed": 0,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "to": "0xec3e765bf013e9b2f9e0956767a735b9e9f94219",
+  "transactionHash": "0x958088a74e48ce2619e597ea5bf1146edb87e52d95c43a026d22cce3b9868492",
+  "transactionIndex": 1
+} {"timestamp":"2018-07-06 03:18:27"}
+error: transactionError: Error: Transaction ran out of gas. Please provide more gas:
+{
+  "blockHash": "0x5b9a659ee45b812b26e5491dc979d1a33fe99f34bdf020b9aafa9608a070dfb2",
+  "blockNumber": 6011993,
+  "contractAddress": null,
+  "cumulativeGasUsed": 0,
+  "from": "0x60cf495d17f71f27da981ce7cf21ce678788d97d",
+  "gasUsed": 0,
+  "logs": [],
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "status": false,
+  "to": "0xec3e765bf013e9b2f9e0956767a735b9e9f94219",
+  "transactionHash": "0x2bc848f2216c67f97d405c418938d410377cc6a9d66ba1b5d029e021822e77f7",
+  "transactionIndex": 0
+} {"timestamp":"2018-07-09 07:56:21"}
+error: transactionError: Error: Returned error: nonce too low {"timestamp":"2018-07-20 10:13:34"}
+error: transactionError: Error: Transaction was not mined within 50 blocks, please make sure your transaction was properly sent. Be aware that it might still be mined! {"timestamp":"2018-10-31 03:24:05"}
+error: transactionError: Error: Transaction was not mined within 50 blocks, please make sure your transaction was properly sent. Be aware that it might still be mined! {"timestamp":"2018-11-28 02:50:38"}

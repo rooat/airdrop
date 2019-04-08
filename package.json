@@ -1,0 +1,35 @@
+{
+  "name": "sendcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/BatchSendCoin",
+    "sendETZ": "babel-node ./src/BasicTokenBatchSend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.5",
+    "ethjs-unit": "^0.1.6",
+    "eventemitter3": "^3.1.0",
+    "oboe": "^2.1.4",
+    "pg": "^7.4.3",
+    "randomhex": "^0.1.5",
+    "scrypt.js": "^0.2.0",
+    "underscore": "^1.9.1",
+    "utf8": "^3.0.0",
+    "web3": "git+https://github.com/liujett/web3.js.git#Tag35",
+    "websocket": "^1.0.26",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.2.3",
+    "xhr2-cookies": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.74.0"
+  }
+}

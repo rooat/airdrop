@@ -1,0 +1,63 @@
+INSERT INTO air_drop_20180621
+SELECT
+ DISTINCT etz_recommend_record.phone_address AS address
+FROM
+ etz_recommend_record LEFT OUTER JOIN air_drop_20180621 ON etz_recommend_record.phone_address = air_drop_20180621.address
+ WHERE
+ etz_recommend_record.type = '个人奖励' and etz_recommend_record.status = '已激活';
+
+
+ CREATE TABLE air_drop_etz001 (
+ id SERIAL PRIMARY KEY,
+ address VARCHAR(100) UNIQUE CONSTRAINT lower_case_address CHECK (address=lower(address)),
+ value VARCHAR(100) NOT NULL default '0',
+ state smallint NOT NULL default 0,
+ txHash VARCHAR(100),
+ createAt timestamp default now(),
+ updateAt timestamp default now()
+);
+
+//插入数据到发送0.01个etz表
+INSERT INTO air_drop_etz001 (address)
+SELECT
+ DISTINCT lower(air_drop_20180621.address) AS address
+FROM
+ air_drop_20180621 LEFT JOIN air_drop_etz001 ON air_drop_20180621.address = air_drop_etz001.address
+ WHERE
+ air_drop_etz001.address is NULL;
+
+ CREATE TABLE air_drop_20180621_controll_sig (
+ type VARCHAR(40) UNIQUE,
+ sig  INT NOT NULL DEFAULT 0,
+ createAt timestamp default now(),
+ updateAt timestamp default now(),
+ );
+
+ INSERT INTO air_drop_20180621_controll_sig
+ (type, sig)
+ VALUES
+ ('stop', 0),
+ ('shutdown',0);
+
+INSERT INTO air_drop_20180621
+ SELECT
+  DISTINCT lower(etz_recommend_record.phone_address) AS address
+ FROM
+  etz_recommend_record LEFT OUTER JOIN air_drop_20180621 ON (etz_recommend_record.type = '个人奖励' AND etz_recommend_record.status = '已激活' AND lower(etz_recommend_record.phone_address) = lower(air_drop_20180621.address))
+ WHERE
+  air_drop_20180621.address is null;
+
+SELECT phone_address FROM etz_recommend_record LEFT OUTER JOIN air_drop_20180621 ON (lower(etz_recommend_record.phone_address) = lower(air_drop_20180621.address))
+
+  SELECT
+   Count(DISTINCT etz_recommend_record.phone_address)
+  FROM
+   etz_recommend_record
+  WHERE
+   etz_recommend_record.type = '个人奖励' AND etz_recommend_record.status = '已激活';
+
+   SELECT * FROM (SELECT Count(1), phone_address FROM etz_recommend_record WHERE type = '个人奖励' GROUP BY phone_address) as p WHERE p.Count>1;
+
+   delete from etz_userinfo
+   where lower(receive_address) IN (SELECT lower(receive_address) as address from etz_userinfo GROUP BY lower(receive_address) having Count(1)>1 )
+   and   id not in (select min(id) as id from etz_userinfo GROUP BY lower(receive_address) having Count(1)>1);

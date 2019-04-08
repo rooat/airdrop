@@ -1,0 +1,403 @@
+nohup: 忽略输入
+
+> sendcoin@1.0.0 sendETZ /home/centos/Projects/BO_AirDrop
+> babel-node ./src/BasicTokenBatchSend
+
+log file switch sendETZ-2018-07-13.log to sendETZ-2018-07-14.log
+log file switch sendETZ-2018-07-14.log to sendETZ-2018-07-15.log
+log file switch sendETZ-2018-07-15.log to sendETZ-2018-07-16.log
+log file switch sendETZ-2018-07-16.log to sendETZ-2018-07-17.log
+log file switch sendETZ-2018-07-17.log to sendETZ-2018-07-18.log
+log file switch sendETZ-2018-07-18.log to sendETZ-2018-07-19.log
+log file switch sendETZ-2018-07-19.log to sendETZ-2018-07-20.log
+log file switch sendETZ-2018-07-20.log to sendETZ-2018-07-21.log
+log file switch sendETZ-2018-07-21.log to sendETZ-2018-07-22.log
+log file switch sendETZ-2018-07-22.log to sendETZ-2018-07-23.log
+log file switch sendETZ-2018-07-23.log to sendETZ-2018-07-24.log
+log file switch sendETZ-2018-07-24.log to sendETZ-2018-07-25.log
+log file switch sendETZ-2018-07-25.log to sendETZ-2018-07-26.log
+log file switch sendETZ-2018-07-26.log to sendETZ-2018-07-27.log
+log file switch sendETZ-2018-07-27.log to sendETZ-2018-07-28.log
+log file switch sendETZ-2018-07-28.log to sendETZ-2018-07-29.log
+log file switch sendETZ-2018-07-29.log to sendETZ-2018-07-30.log
+log file switch sendETZ-2018-07-30.log to sendETZ-2018-07-31.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:23616) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+log file switch sendETZ-2018-07-31.log to sendETZ-2018-08-01.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+log file switch sendETZ-2018-08-01.log to sendETZ-2018-08-02.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+log file switch sendETZ-2018-08-02.log to sendETZ-2018-08-03.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+log file switch sendETZ-2018-08-03.log to sendETZ-2018-08-04.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+log file switch sendETZ-2018-08-04.log to sendETZ-2018-08-05.log
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+connection not open on send()
+(node:23616) UnhandledPromiseRejectionWarning: Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Eth.send [as getBalance] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:160:47)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+(node:23616) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 17)
+connection not open on send()
+connection not open on send()
+Error: connection not open
+    at WebsocketProvider.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-providers-ws/src/index.js:247:18)
+    at RequestManager.send (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-requestmanager/src/index.js:132:66)
+    at sendRequest (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:562:42)
+    at Object.send [as getId] (/home/centos/Projects/BO_AirDrop/node_modules/web3-core-method/src/index.js:583:13)
+    at Accounts.signTransaction (/home/centos/Projects/BO_AirDrop/node_modules/web3-eth-accounts/src/index.js:223:49)
+    at BatchSendETZ.sendcoin (/home/centos/Projects/BO_AirDrop/src/BasicTokenBatchSend.js:122:50)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
